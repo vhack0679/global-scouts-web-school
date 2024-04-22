@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shCk+Oew6Kz12G5iSv8I5k/1p0o2rCBuixFj6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.3.0/dist/mdb.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Super School </title>
+  </head>
+  <body>
+    <button class="scroll-to-top float-left" onclick="scrollToTop()">
+      <i class="fa fa-arrow-up"></i>
+  </button>
+<div class="modal fade" id="admissionsModal" tabindex="-1" aria-labelledby="admissionsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <img src="admis.jpg" alt="Admissions Open" class="img-fluid mb-3">
+        <h5 class="modal-title text-center mb-3" id="admissionsModalLabel">Admissions are Open!</h5>
+        <p class="text-center">Enroll now to secure your spot for the upcoming academic year.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+      <a class="navbar-brand " href="#"><img src="newlogo.png"  height="80px" width="240px" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav " >
+          <a class="nav-item nav-link  " href="index.html" style="color:#EA7066 ; font-size: large;"><i class="fas fa-home custom-color-1 " style="border-radius: 50%; padding: 4px; "></i> Home </a>
+          <a class="nav-item nav-link  " href="#About" style="color:#B5D56A ; font-size: large;"><i class="fas fa-info-circle bg-circle custom-color-2 "  style="border-radius: 50%; padding: 4px; "></i> About</a>
+          <a class="nav-item nav-link  " href="Contact.html" style="color: #84BED6; font-size: large;"><i class='fas fa-phone-alt bg-circle custom-color-3'  style="border-radius: 50%; padding: 4px; " ></i> Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img-2.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img-3.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img-1.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 ">
+            <h2 class="fade-in text-danger" id="About" > 〣 About 〣</h2>
+            <p class="fade-in akaya-kanadaka-regular">Super School is a leading educational institution committed to providing a holistic learning experience for students. Our mission is to empower young minds, nurture their talents, and prepare them for success in a rapidly changing world.</p>
+            <p class="fade-in akaya-kanadaka-regular">At Super School, we offer a comprehensive curriculum, state-of-the-art facilities, and dedicated faculty who are passionate about inspiring students to reach their full potential.</p>
+            <p class="fade-in akaya-kanadaka-regular">where education meets excellence. We pride ourselves on providing a transformative learning journey for our students. Our mission is to instill a passion for knowledge, foster critical thinking skills, and cultivate leadership qualities.</p>
+            <p class="fade-in akaya-kanadaka-regular">At Super School, we go beyond traditional education by offering innovative programs and hands-on learning experiences. Our dedicated faculty members are committed to nurturing each student's unique talents and helping them unlock their full potential.</p>
+          </div>
+          <div class="col-md-6 ">
+            <img src="child2.png" class="fade-in" width="80%" alt="">
+            <h2 class=" text-danger fade-in">Why Choose Super School?</h2>
+            
+            <ul>
+              <li class="fade-in akaya-kanadaka-regular" >Experienced and Qualified Faculty</li>
+              <li  class="fade-in akaya-kanadaka-regular">Modern Facilities and Resources</li>
+              <li  class="fade-in akaya-kanadaka-regular">Diverse Extracurricular Activities</li>
+              <li class="fade-in akaya-kanadaka-regular" >Personalized Support and Mentorship</li>
+              <li class="fade-in akaya-kanadaka-regular" >Strong Community and Alumni Network</li>
+            </ul>
+    
+          </div>
+        </div>
+      </div>
+      <section  id="courses">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title justify-content-center mb-4 mb-md-8 " >
+                <span class="shape shape-left bg-info"></span>
+                <h2 class="text-danger fade-in"> 〣 Our Features 〣</h2>
+                <img src="childcartoon.png" class="mx-auto d-block " width="50%" alt="">
+
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card custom-color-1 text-white align-items-center  mb-4">
+                  <div class="card-body text-center akaya-kanadaka-regular">
+                    <h5 class="card-title fade-in "><i class="bi bi-lightbulb display-1 icon-circle "></i><br/> E & E Classes</h5>
+                    <p class="card-text fade-in">Enhancement and Enrichment classes with Homework help</p>
+                  </div>
+                </div>
+                <div class="card custom-color-3 text-white  align-items-center  mb-4">
+                  <div class="card-body text-center akaya-kanadaka-regular">
+                    <h5 class="card-title fade-in"><i class="bi bi-clipboard-check display-1 icon-circle"></i><br/> Activity Based Learning</h5>
+                    <p class="card-text fade-in">Learning By Doing... Children should be educated in a natural and pleasant environment, and through various activities and life experiences that children attain a balanced development in different aspects.</p>
+                  </div>
+                </div>
+                <div class="card custom-color-4 text-white  align-items-center   mb-4">
+                  <div class="card-body text-center akaya-kanadaka-regular">
+                    <h5 class="card-title fade-in"><i class="bi bi-person display-1 icon-circle"></i><br/> Personal Care</h5>
+                    <p class="card-text fade-in">THE FIRST STEPS - It consists of ...Individual Attention and Motivation, Restoration and Development of self confidence by teaching basics.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card custom-color-2 text-white  align-items-center   mb-4">
+                  <div class="card-body text-center akaya-kanadaka-regular">
+                    <h5 class="card-title fade-in"><i class="bi bi-chat-left-dots display-1 icon-circle"></i> <br/>Communicative Language Development Programme (CLDP)</h5>
+                    <p class="card-text fade-in">Fluency … The Priceless skill It is aimed at developing the communication skills of students and to prepare them for life at large</p>
+                  </div>
+                </div>
+                <div class="card custom-color-5 text-white  align-items-center   mb-4">
+                  <div class="card-body text-center akaya-kanadaka-regular">
+                    <h5 class="card-title  fade-in"><i class="bi bi-chat-square display-1 icon-circle"></i> <br/>Speaking Express</h5>
+                    <p class="card-text fade-in">"Language Festivals" are conducted, to create awareness in the students, which include various language activities like — elocution, debate description, story telling, recitations etc...</p>
+                  </div>
+                </div>
+                <div class="card bg-light  align-items-center  mb-4">
+                  <div class="card-body text-center akaya-kanadaka-regular">
+                    <h5 class="card-title fade-in"><i class="bi bi-tools display-1 icon-circle"></i> Skill Master</h5>
+                    <p class="card-text fade-in">"SKILL MASTER" is an integral part of curriculum and it has a perfectly planned schedule which will be implemented in a practical way in our schools.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section  id="courses">
+        <div class="container">
+            <div class="section-title justify-content-center mb-4 mb-md-8 " >
+                <span class="shape shape-left bg-info"></span>
+                <h2 class="text-danger fade-in">〣 Our Curriculum 〣</h2>
+                
+            </div>
+            <div class="row akaya-kanadaka-regular" >
+                <div class="col-sm-6 col-lg-3 col-xs-12 ">
+                    <div class="card bg-light">
+                        <a href="#" class="position-relative ">
+                            <img class="card-img-top fade-in "  src="courses-img1.jpg" alt="The First Steps">
+                        </a>
+                        <div class="card-body border-top-5 px-3 border-warning ">
+                            <h3 class="card-title fade-in ">
+                                <a class="text-warning  text-decoration-none text-capitalize d-block text-truncate" href="#">THE FIRST STEPS</a>
+                            </h3>
+                            <p class="fade-in" > Comprehensive learning programme in fundamentals ( CLPF) - an exclusive academic programme of THE SUPER SCHOOL, which covers Basic concepts in all subjects. </p>
+                            <div class="d-block ">
+                                <a href="#" class="btn   text-white text-decoration-none bg-warning ">
+                                    <i class="bi bi-arrow-right" aria-hidden="true"></i> More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-xs-12">
+                    <div class="card bg-light ">
+                        <a href="#" class="position-relative ">
+                            <img class="card-img-top fade-in "  src="courses-img2.jpg" alt="Activity Based Learning">
+                        </a>
+                        <div class="card-body border-top-5 px-3  border-success">
+                            <h3 class="card-title fade-in ">
+                                <a class="text-success text-decoration-none text-capitalize d-block text-truncate" href="#">ACTIVE LEARNING METHODOLOGY.</a>
+                            </h3>
+                            <p class="fade-in" >
+                                Our curriculum is enhanced with many activities which makes learning interesting &amp; inspiring. Spacious classrooms, labs (computer, science), library, Gaming zone
+                                Digital classes.
+                            </p>
+                            <div class="d-block ">
+                                <a href="#" class="btn   text-white text-decoration-none bg-success ">
+                                    <i class="bi bi-arrow-right" aria-hidden="true"></i> More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-xs-12">
+                    <div class="card bg-light ">
+                        <a href="#" class="position-relative ">
+                            <img class="card-img-top fade-in "  src="courses-img3.jpg" alt="Focus - Conceptual Foundation Classes">
+                        </a>
+                        <div class="card-body border-top-5 px-3 border-danger">
+                            <h3 class="card-title fade-in ">
+                                <a class="text-danger  text-decoration-none text-capitalize d-block text-truncate" href="#">Assessment, Evaluation and reporting</a>
+                            </h3>
+                            <p class="fade-in" >
+                                Complete evaluation system of students as per National educational policy. The assessments include Weekly Assessments,
+                                Formative &amp; Summative Assessments, etc...
+                            </p>
+                            <div class="d-block ">
+                                <a href="#" class="btn   text-white text-decoration-none bg-danger ">
+                                    <i class="bi bi-arrow-right " aria-hidden="true"></i> More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 col-xs-12">
+                    <div class="card bg-light ">
+                        <a href="#" class="position-relative ">
+                            <img class="card-img-top fade-in"  src="courses-img4.jpg" alt="E &amp; E classes">
+                        </a>
+                        <div class="card-body border-top-5 px-3 border-info ">
+                            <h3 class="card-title fade-in ">
+                                <a class="text-info  text-decoration-none text-capitalize d-block text-truncate" href="#">
+                                    ENHANCEMENT &amp; ENRICHMENT CLASSES (E&amp;E)
+                                    AND HOME WORK HELP
+                                </a>
+                            </h3>
+                            <p  class="fade-in">
+                                Enhancement &amp; Enrichment classes are conducted in the
+                                presence of subject expert and mentor. To reduce the burden of homework ruling out the necessisty for outside tuitions.
+                            </p>
+                            <div class="d-block ">
+                                <a href="#" class="btn  text-white text-decoration-none  bg-info ">
+                                    <i class="bi bi-arrow-right" aria-hidden="true"></i> More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section id="gallery" style="margin-top: 7%;">
+       <div class="container fade-in">
+        <div class="section-title justify-content-center mb-4 mb-md-8 " >
+            <span class="shape shape-left bg-info"></span>
+            <h2 class="text-danger fade-in"> 〣 Gallery 〣</h2>
+            <span class="shape shape-right bg-info"></span>
+        </div>
+       </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <img src="welcome.jpg" alt="Image 1" class="img-fluid gallery-img " data-toggle="modal" data-target="#imageModal" data-src="welcome.jpg" >
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="parent.jpg" alt="Image 2" class="img-fluid gallery-img " data-toggle="modal" data-target="#imageModal" data-src="parent.jpg" >
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="1 (1).jpg" alt="Image 3" class="img-fluid gallery-img " data-toggle="modal" data-target="#imageModal" data-src="1 (1).jpg" >
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="1.jpg" alt="Image 1" class="img-fluid gallery-img " data-toggle="modal" data-target="#imageModal" data-src="1.jpg" >
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="2.jpg" alt="Image 2" class="img-fluid gallery-img" data-toggle="modal" data-target="#imageModal" data-src="2.jpg" >
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="3.jpg" alt="Image 3" class="img-fluid gallery-img " data-toggle="modal" data-target="#imageModal" data-src="3.jpg" >
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-body">
+          <img src="" alt="Preview Image" class="img-fluid" id="previewImage">
+        </div>
+    </div>
+  </div>
+</section>
+<footer class="text-center text-lg-start " style="background-color: #F8F9FA;">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span style="color:#0082bc;">Get connected with us on social networks:</span>
+      </div>
+      <div>
+        <a href="me-4 link-secondary">
+          <i class="fab fa-facebook-f"  style="color:white">
+            &nbsp;&nbsp;&nbsp;</i></a>
+        <a href="" class="me-4 link-secondary">  
+          <i class="fab fa-twitter" style="color:white"></i></a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram" style="color:white"></i></a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-whatsapp" style="color:white"></i></a>
+      </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
+            </h6>
+            <p>
+                Super School is a leading educational institution committed to providing a holistic learning experience for students. Our mission is to empower young minds, nurture their talents, and prepare them for success in a rapidly changing world.
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4" style="color:#ffb600;">
+              quick links
+            </h6>
+            <p>
+              <a href="#" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="#About" class="text-reset">About</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Contact</a>
+            </p>
+           
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4" style="color:#ffb600;">Contact</h6>
+            <p><i class="fa fa-home me-3 text-secondary"></i> Desaipet Rd, near CKM college, Balaji Nagar, Warangal, Telangana 506006</p>
+            <p>
+              <i class="fa fa-envelope me-3 text-secondary"></i>
+              support@superschool.edu
+            </p>
+            <p><i class="fa fa-phone me-3 text-secondary"></i>+916301123051</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4 bg-dark text-light" >
+     ©  2023 Copyright:
+      <a class="text-reset fw-bold" href="#">SUPER SCHOOL</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
