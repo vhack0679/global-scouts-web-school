@@ -1,9 +1,4 @@
-$(document).ready(function() {
-    $('.gallery-img').click(function() {
-      var src = $(this).attr('data-src');
-      $('#previewImage').attr('src', src);
-    });
-  });
+
 function isInViewport(element) {
 var rect = element.getBoundingClientRect();
 return (
