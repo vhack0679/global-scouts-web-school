@@ -1,4 +1,3 @@
-
 function isInViewport(element) {
 var rect = element.getBoundingClientRect();
 return (
@@ -14,7 +13,7 @@ elements.forEach(function(element) {
   if (isInViewport(element)) {
       element.classList.add('fade-in-show');
   } else {
-      element.classList.remove('fade-in-show');
+      
   }
 });
 }
@@ -41,4 +40,28 @@ function scrollToTop() {
       } else {
           scrollButton.style.display = 'none'; 
       }
+  })
+  let lastScrollTop = 0;
+  const navbar = document.querySelector('.navbar');
+  window.addEventListener('scroll', function() {
+      let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > lastScrollTop) {
+          navbar.style.transform = 'translateY(-100%)';
+      } else {
+          navbar.style.transform = 'translateY(0)';
+      }
+      
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
   });
+const navbarToggler = document.querySelector('.navbar-toggler');
+const navbarTogglerCloseIcon = document.querySelector('.navbar-toggler-close-icon');
+const navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');
+navbarToggler.addEventListener('click', function() {
+  if (navbarToggler.getAttribute('aria-expanded') === 'true') {
+    navbarTogglerCloseIcon.style.display = 'inline-block';
+    navbarTogglerIcon.style.display = 'none'; 
+  } else {
+    navbarTogglerCloseIcon.style.display = 'none';
+    navbarTogglerIcon.style.display = 'inline-block'; 
+  }
+});

@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">  
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,22 +18,6 @@
     <title> The Super School </title>
   </head>
   <body>
-    
-    
-      <div class="row w-100">
-        <div class="col-12 top-header marqueebody d-flex align-items-center justify-content-between">
-          <b class="btn Announcements">Announcements:</b>
-          <marquee class="Announcementsquote" behavior="scroll" direction="left" scrollamount="5">
-            We have been awarded the prestigious AAAA+ grade under the Day &amp; Residential School Category for the academic year 2022-23.
-          </marquee>
-        </div>
-      </div>
- 
- 
-    
-
-    
-    
     <button class="scroll-to-top float-left" onclick="scrollToTop()">
       <i class="fa fa-arrow-up"></i>
   </button>
@@ -51,14 +35,13 @@
       </div>
     </div>
   </div>
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light " style="background-color: white;">
-    <div class="container-fluid ">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light  fixed-top  " style="background-color: white;">
       <a class="navbar-brand" href="#">
         <img src="newlogo.png" height="80px" width="170px" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-close-icon " style="display: none; font-size: 24px; ">X</span>
       </button>
       <div class="collapse navbar-collapse  " id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -83,21 +66,27 @@
             </a>
           </li>
         </ul>
-       
       </div>
     </div>
   </nav>
-
+  <div class="row w-100 " style="margin-top: 108px;">
+    <div class="col-12 announcements-container top-header marqueebody d-flex align-items-center justify-content-between" >
+        <b class="btn Announcements">Announcements:</b>
+        <marquee class="Announcementsquote" behavior="scroll" direction="left" scrollamount="5">
+            We have been awarded the prestigious AAAA+ grade under the Day &amp; Residential School Category for the academic year 2022-23.
+        </marquee>
+    </div>
+</div>
 <div id="carouselExample" class="carousel slide" >
   <div class="carousel-inner">
     <div class="carousel-item active" >
-      <img src="img-2.jpg" class="d-block w-100"   alt="...">
+      <img src="img-2.jpg" class="d-block w-100"  alt="...">
     </div>
     <div class="carousel-item">
       <img src="img-3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img-1.jpg" class="d-block w-100" alt="...">
+      <img src="img-1.jpg" class="d-block w-100 "alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -110,35 +99,31 @@
   </button>
 </div>
 <a href="https://wa.me/6301123051" class="floating" target="_blank" style="color:black;">
-  <i class="fab fa-whatsapp fab-icon"></i>
+  <i class="fab fa-whatsapp fab-icon" style="color: #F8F9FA;"></i>
   </a>
-
-    
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-6 ">
-            <h2 class="fade-in text-danger" id="About" > 〣 About 〣</h2>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class=" text-danger" id="About">〣 About 〣</h2>
             <hr class="mt-2 mb-5 text-danger">
-            <p class="fade-in akaya-kanadaka-regular"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi sunt quae maiores adipisci nisi libero consectetur blanditiis iure beatae inventore molestias corrupti et minima sapiente doloribus ducimus, cupiditate cum!Super School is a leading educational institution committed to providing a holistic learning experience for students. Our mission is to empower young minds, nurture their talents, and prepare them for success in a rapidly changing world.</p>
-            <p class="fade-in akaya-kanadaka-regular">At Super School, we offer a comprehensive curriculum, state-of-the-art facilities, and dedicated faculty who are passionate about inspiring students to reach their full potential.</p>
-            <p class="fade-in akaya-kanadaka-regular">where education meets excellence. We pride ourselves on providing a transformative learning journey for our students. Our mission is to instill a passion for knowledge, foster critical thinking skills, and cultivate leadership qualities.</p>
-            <p class="fade-in akaya-kanadaka-regular">At Super School, we go beyond traditional education by offering innovative programs and hands-on learning experiences. Our dedicated faculty members are committed to nurturing each student's unique talents and helping them unlock their full potential.</p>
-          </div>
-          <div class="col-md-6 ">
-            <img src="child2.png" class="fade-in" width="80%" alt="">
-            <h2 class=" text-danger fade-in">Why Choose Super School?</h2>
-            
-            <ul>
-              <li class="fade-in akaya-kanadaka-regular" >Experienced and Qualified Faculty</li>
-              <li  class="fade-in akaya-kanadaka-regular">Modern Facilities and Resources</li>
-              <li  class="fade-in akaya-kanadaka-regular">Diverse Extracurricular Activities</li>
-              <li class="fade-in akaya-kanadaka-regular" >Personalized Support and Mentorship</li>
-              <li class="fade-in akaya-kanadaka-regular" >Strong Community and Alumni Network</li>
-            </ul>
-    
-          </div>
+            <p class=" akaya-kanadaka-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi sunt quae maiores adipisci nisi libero consectetur blanditiis iure beatae inventore molestias corrupti et minima sapiente doloribus ducimus, cupiditate cum! Super School is a leading educational institution committed to providing a holistic learning experience for students. Our mission is to empower young minds, nurture their talents, and prepare them for success in a rapidly changing world.</p>
+            <p class=" akaya-kanadaka-regular">At Super School, we offer a comprehensive curriculum, state-of-the-art facilities, and dedicated faculty who are passionate about inspiring students to reach their full potential.</p>
+            <p class=" akaya-kanadaka-regular">Where education meets excellence. We pride ourselves on providing a transformative learning journey for our students. Our mission is to instill a passion for knowledge, foster critical thinking skills, and cultivate leadership qualities.</p>
+            <p class=" akaya-kanadaka-regular">At Super School, we go beyond traditional education by offering innovative programs and hands-on learning experiences. Our dedicated faculty members are committed to nurturing each student's unique talents and helping them unlock their full potential.</p>
         </div>
-      </div>
+        <div class="col-md-6">
+            <img src="child2.png" class=" img-fluid" alt="">
+            <h2 class="text-danger  mt-4 mt-md-0">Why Choose Super School?</h2>
+            <ul class="list-unstyled mt-4">
+                <li class=" akaya-kanadaka-regular">Experienced and Qualified Faculty</li>
+                <li class=" akaya-kanadaka-regular">Modern Facilities and Resources</li>
+                <li class=" akaya-kanadaka-regular">Diverse Extracurricular Activities</li>
+                <li class=" akaya-kanadaka-regular">Personalized Support and Mentorship</li>
+                <li class=" akaya-kanadaka-regular">Strong Community and Alumni Network</li>
+            </ul>
+        </div>
+    </div>
+</div>
       <section id="courses" class="mt-4">
         <div class="container" style="margin-top: 15%;">
           <div class="row">
@@ -207,18 +192,14 @@
           </div>
         </div>
       </section>
-      
-      
-    
       <section  id="courses">
         <div class="container" style="margin-top: 15%;">
             <div class="section-title justify-content-center mb-4 mb-md-8 " >
                 <span class="shape shape-left bg-info"></span>
                 <h2 class="text-danger fade-in">〣 Our Curriculum 〣</h2>
                 <hr class="mt-2 mb-5 text-danger">
-                
             </div>
-            <div class="row akaya-kanadaka-regular" >
+            <div class="row akaya-kanadaka-regular gx-4 gy-4" >
                 <div class="col-sm-6 col-lg-3 col-xs-12 ">
                     <div class="card bg-light">
                         <a href="#" class="position-relative ">
@@ -323,7 +304,7 @@
             <div class="carousel-item active">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-6 mb-4">
+                  <div class="col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="https://primusschool.sch.ae/wp-content/uploads/2021/11/00122.jpg" class="card-img-top img-fluid" alt="..." style="height: 300px;">
                       <div class="card-body d-flex flex-column">
@@ -332,13 +313,20 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 mb-4">
+                  <div class="col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="https://primusschool.sch.ae/wp-content/uploads/2021/11/2.jpeg" class="card-img-top img-fluid" alt="..." style="height: 300px;">
                       <div class="card-body d-flex flex-column">
-                        <h5 class="card-title akaya-kanadaka-regular fade-in text-danger">Leadership Achievement Award</h5>
-                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Honoring students who have shown exceptional leadership skills and made significant contributions to their school or community. This award acknowledges individuals who inspire others, demonstrate initiative, and lead by example.</p>
-                      </div>
+                        <h5 class="card-title akaya-kanadaka-regular fade-in text-success">Creative Innovation Award</h5>
+                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Celebrating creativity, innovation, and originality. This award recognizes individuals who think outside the box, push boundaries, and create new solutions to challenges. From art to technology, this award applauds creativity in all its forms.</p>                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                      <img src="https://www.oliviaschool.com/images/achievement/1703743105409725177_832282205571931_7259925824672303052_n.jpg" class="card-img-top img-fluid" alt="..." style="height: 300px;">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title akaya-kanadaka-regular fade-in text-primary">Community Service Award</h5>
+                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Recognizing selfless acts of service and dedication to making a positive impact in the community. This award honors individuals who</p>                    </div>
                     </div>
                   </div>
                 </div>
@@ -347,21 +335,29 @@
             <div class="carousel-item">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <img src="https://www.oliviaschool.com/images/achievement/1703743105409725177_832282205571931_7259925824672303052_n.jpg" class="card-img-top img-fluid" alt="..." style="height: 300px;">
-                      <div class="card-body d-flex flex-column">
-                        <h5 class="card-title akaya-kanadaka-regular fade-in text-success">Creative Innovation Award</h5>
-                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Celebrating creativity, innovation, and originality. This award recognizes individuals who think outside the box, push boundaries, and create new solutions to challenges. From art to technology, this award applauds creativity in all its forms.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
+                  <div class="col-md-4 mb-4">
                     <div class="card h-100">
                       <img src="https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/304895000_459265912892662_7922797839250950870_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Nf_Jf9cdfygAb4Xtu33&_nc_ht=scontent.fhyd14-2.fna&oh=00_AfCOZxoBt5l7b7qmH4xTjOo4bN-Y70j5Ho_RehLV6xlm5w&oe=662D722B" class="card-img-top img-fluid" alt="..." style="height: 300px;">
                       <div class="card-body d-flex flex-column">
-                        <h5 class="card-title akaya-kanadaka-regular fade-in text-primary">Community Service Award</h5>
-                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Recognizing selfless acts of service and dedication to making a positive impact in the community. This award honors individuals who</p>
+                        <h5 class="card-title akaya-kanadaka-regular fade-in text-danger">Leadership Achievement Award</h5>
+                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Honoring students who have shown exceptional leadership skills and made significant contributions to their school or community. This award acknowledges individuals who inspire others, demonstrate initiative, and lead by example.</p>                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                      <img src="https://www.ryanglobalschools.com/admin/authenticate/images/award/specialjury.jpg" class="card-img-top img-fluid" alt="..." style="height: 300px;">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title akaya-kanadaka-regular fade-in text-warning">Recognizing exceptional </h5>
+                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Recognizing outstanding academic performance and dedication to learning. This award celebrates students who consistently demonstrate excellence in their studies and contribute positively.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                      <img src="data:image/jpeg;base64,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" class="card-img-top img-fluid" alt="..." style="height: 300px;">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title akaya-kanadaka-regular fade-in text-warning">Community Service Award</h5>
+                        <p class="card-text akaya-kanadaka-regular fade-in flex-grow-1 text-truncate">Acknowledging individuals for their selfless acts of service and dedication towards fostering positive change within the community. This award honors those who.</p>
                       </div>
                     </div>
                   </div>
@@ -370,7 +366,7 @@
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden text-warning">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
@@ -426,7 +422,6 @@
     </div>
   </div>
 </div>
-
 <footer class="text-center text-lg-start " style="background-color: #F8F9FA;">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <div class="me-5 d-none d-lg-block">
@@ -434,7 +429,6 @@
       </div>
       <div>
         <a href="me-4 link-secondary">
-          
           <i class="fab fa-facebook-f"  style="color:black">
             &nbsp;&nbsp;&nbsp;</i></a>
         <a href="" class="me-4 link-secondary">  
@@ -449,7 +443,6 @@
       <div class="container text-center text-md-start mt-5">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            
             <h6 class="text-uppercase fw-bold mb-4" style="color:#ffb600;">
               quick links
             </h6>
@@ -464,8 +457,6 @@
             </p>
           </div>
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-           
-           
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold mb-4" style="color:#ffb600;">Contact</h6>

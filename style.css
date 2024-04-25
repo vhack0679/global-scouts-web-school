@@ -36,10 +36,12 @@
 }
 .fade-in {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transform: translateY(50px); 
+  transition: opacity 0.6s, transform 0.6s;
 }
 .fade-in.fade-in-show {
   opacity: 1;
+  transform: translateY(0);
 }
 .modal-content {
   background-color: #fff;
@@ -89,7 +91,7 @@
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 10px;
   width: 40px;
   height: 40px;
   background-color: #007bff;
@@ -97,10 +99,11 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  display: none; 
+  display: none;
   justify-content: center;
   align-items: center;
   transition: opacity 0.3s ease;
+  z-index: 1000; 
 }
 .scroll-to-top i {
             font-size: 24px;
@@ -138,6 +141,7 @@
 }
 @media (min-width: 768px) {
   #carouselExample .carousel-inner .carousel-item img {
-    max-height: 520px; /* Adjust the maximum height as needed */
+    max-height: 520px; 
   }
 }
+
