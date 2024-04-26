@@ -1,63 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">  
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shCk+Oew6Kz12G5iSv8I5k/1p0o2rCBuixFj6" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.3.0/dist/mdb.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title> The Super School </title>
-  </head>
-  <body>
-    <button class="scroll-to-top float-left" onclick="scrollToTop()">
-      <i class="fa fa-arrow-up"></i>
-  </button>
-  <a href="https://wa.me/6301123051" class="floating" target="_blank" style="color:black;">
-    <i class="fab fa-whatsapp fab-icon" style="color: #F8F9FA;"></i>
-    </a>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light  fixed-top  " style="background-color: white;">
-    <a class="navbar-brand" href="#">
-      <img src="newlogo.png" height="80px" width="170px" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      <span class="navbar-toggler-close-icon " style="display: none; font-size: 24px; ">X</span>
-    </button>
-    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-item nav-link" href="index.html" style="color:#EA7066; font-size: large;">
-            <i class="fas fa-home custom-color-1" style="border-radius: 50%; padding: 4px;"></i> Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-item nav-link" href="about.html" style="color:#B5D56A; font-size: large;">
-            <i class="fas fa-info-circle bg-circle custom-color-2" style="border-radius: 50%; padding: 4px;"></i> About
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-item nav-link" href="Contact.html" style="color: #84BED6; font-size: large;">
-            <i class='fas fa-phone-alt bg-circle custom-color-3' style="border-radius: 50%; padding: 4px;"></i> Contact
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-item nav-link " href="index.html#Achievements" style="color: #89509C; font-size: large;">
-            <i class='fas fa-award bg-circle custom-color-6' style="border-radius: 50%; padding: 4px;"></i> Achievements
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include 'header.php'; ?>
 <div class="row w-100 " style="margin-top: 108px;">
   <div class="col-12 announcements-container top-header marqueebody d-flex align-items-center justify-content-between" >
       <b class="btn Announcements">Announcements:</b>
@@ -78,7 +19,7 @@
             <p class=" akaya-kanadaka-regular">At Super School, we go beyond traditional education by offering innovative programs and hands-on learning experiences. Our dedicated faculty members are committed to nurturing each student's unique talents and helping them unlock their full potential.</p>
           </div>
           <div class="col-md-6 ">
-            <img src="feat-img.jpg" class=" mt-5  img-fluid"  alt="">
+            <img src="images/feat-img.jpg" class=" mt-5  img-fluid"  alt="">
             <h2 class=" text-danger  ">A Unique Academic Program Answering Every Question About Learning</h2>
             <ul class=" fade-in" style="list-style-type: none;">
                 <li><i class="fas fa-check-square"></i> Active Learning Methodology (ALM)</li>
@@ -99,7 +40,7 @@
           <div class="col-md-6 ">
             <h2 class="fade-in text-danger" id="About" > Vision & Mission 〣</h2>
             <hr class="mt-2  text-danger">
-        <img src="business-vision-768x470.jpeg" class="fade-in   img-fluid"  alt="">
+        <img src="images/business-vision-768x470.jpeg" class="fade-in   img-fluid"  alt="">
             <p class="fade-in akaya-kanadaka-regular">At Super School, we offer a comprehensive curriculum, state-of-the-art facilities, and dedicated faculty who are passionate about inspiring students to reach their full potential.</p>
             <p class="fade-in akaya-kanadaka-regular">where education meets excellence. We pride ourselves on providing a transformative learning journey for our students. Our mission is to instill a passion for knowledge, foster critical thinking skills, and cultivate leadership qualities.</p>
           </div>
@@ -119,7 +60,7 @@
                         <div class="col-sm-6 col-lg-3 col-xs-12 ">
                             <div class="card bg-light">
                                 <a href="#" class="position-relative ">
-                                    <img class="card-img-top fade-in "   src="cartoon-man-profile-vector-14982743.jpg" alt="The First Steps">
+                                    <img class="card-img-top fade-in "   src="images/cartoon-man-profile-vector-14982743.jpg" alt="The First Steps">
                                 </a>
                                 <div class="card-body border-top-5 px-3 border-warning ">
                                     <h3 class="card-title fade-in ">
@@ -132,7 +73,7 @@
                         <div class="col-sm-6 col-lg-3 col-xs-12">
                             <div class="card bg-light ">
                                 <a href="#" class="position-relative ">
-                                    <img class="card-img-top fade-in "  src="cartoon-man-profile-vector-14982743.jpg" alt="Activity Based Learning">
+                                    <img class="card-img-top fade-in "  src="images/cartoon-man-profile-vector-14982743.jpg" alt="Activity Based Learning">
                                 </a>
                                 <div class="card-body border-top-5 px-3  border-success">
                                     <h3 class="card-title fade-in ">
@@ -147,7 +88,7 @@
                         <div class="col-sm-6 col-lg-3 col-xs-12">
                             <div class="card bg-light ">
                                 <a href="#" class="position-relative ">
-                                    <img class="card-img-top fade-in "  src="cartoon-man-profile-vector-14982743.jpg" alt="Focus - Conceptual Foundation Classes">
+                                    <img class="card-img-top fade-in "  src="images/cartoon-man-profile-vector-14982743.jpg" alt="Focus - Conceptual Foundation Classes">
                                 </a>
                                 <div class="card-body border-top-5 px-3 border-danger">
                                     <h3 class="card-title fade-in ">
@@ -162,7 +103,7 @@
                         <div class="col-sm-6 col-lg-3 col-xs-12">
                             <div class="card bg-light ">
                                 <a href="#" class="position-relative ">
-                                    <img class="card-img-top fade-in"  src="cartoon-man-profile-vector-14982743.jpg" alt="E &amp; E classes">
+                                    <img class="card-img-top fade-in"  src="images/cartoon-man-profile-vector-14982743.jpg" alt="E &amp; E classes">
                                 </a>
                                 <div class="card-body border-top-5 px-3 border-info ">
                                     <h3 class="card-title fade-in ">
@@ -181,62 +122,5 @@
       </div>
   </section>
 <br/>
-  <footer class="text-center text-lg-start " style="background-color: #F8F9FA;">
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <div class="me-5 d-none d-lg-block">
-        <span style="color:#0082bc;">Get connected with us on social networks:</span>
-      </div>
-      <div>
-        <a href="me-4 link-secondary">
-          <i class="fab fa-facebook-f"  style="color:black">
-            &nbsp;&nbsp;&nbsp;</i></a>
-        <a href="" class="me-4 link-secondary">  
-          <i class="fab fa-twitter" style="color:black"></i></a>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-instagram" style="color:black"></i></a>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-whatsapp" style="color:black"></i></a>
-      </div>
-    </section>
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <div class="row mt-3">
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4" style="color:#ffb600;">
-              quick links
-            </h6>
-            <p>
-              <a href="#" class="text-reset">Home</a>
-            </p>
-            <p>
-              <a href="#About" class="text-reset">About</a>
-            </p>
-            <p>
-              <a href="#" class="text-reset">Contact</a>
-            </p>
-          </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold mb-4" style="color:#ffb600;">Contact</h6>
-            <p><i class="fa fa-home me-3 text-secondary"></i>123 Main Street,City,Country
-              </p>
-            <p>
-              <i class="fa fa-envelope me-3 text-secondary"></i>
-              support@superschool.edu
-            </p>
-            <p><i class="fa fa-phone me-3 text-secondary"></i>+916301123051</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="text-center p-4 bg-dark text-light" >
-     ©  2023 Copyright:
-      <a class="text-reset fw-bold" href="#">SUPER SCHOOL</a> &nbsp;&nbsp;&nbsp;&nbsp;
-    </div>
-  </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+
+<?php include 'footer.php'; ?>
