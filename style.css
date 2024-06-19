@@ -1,147 +1,200 @@
-
 .akaya-kanadaka-regular {
-  font-family: "Akaya Kanadaka", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-.custom-color-1 {
-  background-color: #EA7066;
-  color: #fff; 
-}
-.custom-color-2 {
-  background-color: #B5D56A;
-  color: #fff; 
-}
-.custom-color-3 {
-  background-color: #84BED6;
-  color: #fff;
-}
-.custom-color-4 {
-  background-color: #A597E7;
-  color: #fff; 
-}
-.custom-color-5 {
-  background-color: #EA77AD;
-  color: #fff; 
-}
-.custom-color-6{
-  background-color: #89509C;
-  color: #fff;  
-}
-.carousel-caption {
-  top: 3%; 
-  margin-right: 100px;
-}
-.navbar{
-  border-bottom: 2px solid  #BA2F24;
-}
-.fade-in {
-  opacity: 0;
-  transform: translateY(50px); 
-  transition: opacity 0.6s, transform 0.6s;
-}
-.fade-in.fade-in-show {
-  opacity: 1;
-  transform: translateY(0);
-}
-.modal-content {
-  background-color: #fff;
-  border-radius: 10px;
-  max-width: 90%;
-  margin: auto;
-}
-.modal-body {
-  padding: 20px;
-}
-.modal-body img {
-  max-width: 100%;
-  height: auto;
-}
-.contact-info {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.contact-info h4 {
-  color: #007bff;
-  margin-bottom: 20px;
-}
-.contact-info p {
-  margin-bottom: 10px;
-}
-.contact-info {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.contact-info h4 {
-  color: #007bff;
-  margin-bottom: 20px;
-}
-.contact-info p {
-  margin-bottom: 10px;
-}
-.principal-img {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-.scroll-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 10px;
-  width: 40px;
-  height: 40px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  transition: opacity 0.3s ease;
-  z-index: 1000; 
-}
-.scroll-to-top i {
-            font-size: 24px;
-          }
-.marqueebody{
-  background-color: #EB6EA5;
-  color: white;
-  width: 100vw;
-}
-.Announcements{
-  background-color: #F8D4B4;
-  font-weight: bolder;
-   
-}
-.floating {
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  bottom: 90px;
-  right: 10px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 25px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-@media (max-width: 320px) {
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .custom-color-1 {
+    background-color: #EA7066;
+    color: #fff; 
+  }
+  .custom-color-2 {
+    background-color: #B5D56A;
+    color: #fff; 
+  }
+  .custom-color-3 {
+    background-color: #84BED6;
+    color: #fff;
+  }
+  .custom-color-4 {
+    background-color: #A597E7;
+    color: #fff; 
+  }
+  .custom-color-5 {
+    background-color: #EA77AD;
+    color: #fff; 
+  }
+  .custom-color-6{
+    background-color: #89509C;
+    color: #fff;  
+  }
+  .carousel-caption {
+    top: 3%; 
+    margin-right: 100px;
+  }
+  .navbar{
+    border-bottom: 2px solid  #BA2F24;
+  }
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .fade-in.fade-in-show {
+    opacity: 1;
+  }
   .modal-content {
-    max-width: 95%;
-    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+  }
+  .modal-body {
+    padding: 20px;
+  }
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+  }
+  .contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact-info h4 {
+    color: #007bff;
     margin-bottom: 20px;
   }
-}
-@media (min-width: 768px) {
-  #carouselExample .carousel-inner .carousel-item img {
-    max-height: 520px; 
+  .contact-info p {
+    margin-bottom: 10px;
   }
-}
+  .contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact-info h4 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  .principal-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+  }
+  .scroll-to-top i {
+              font-size: 24px;
+            }
+  .marqueebody{
+    background-color: #EB6EA5;
+    color: white;
+   
+  }
+  .Announcements{
+    background-color: #F8D4B4;
+    font-weight: bolder;
+     
+  }
+  .floating {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 90px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  @media (max-width: 320px) {
+    .modal-content {
+      max-width: 95%;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 768px) {
+    #carouselExample .carousel-inner .carousel-item img {
+      max-height: 520px; /* Adjust the maximum height as needed */
+    }
+  }
+  .carousel-item img{
+    width: 100vw;
+  
+    
+  }
+  .mycard{
+    width: 95%;
+    
+  }
+  .card{
+    translate: all 0.5s;
+  }
+  .card:hover{
+    transform: scale(1.05);
+  }
+  .section-top1 {
+      margin-top: -60px;
+  }
+  
+  @media (min-width:992px) {
+      .section-top1 {
+          margin-top: -70px;
+      }
+  }
+  
+  @media (min-width:1200px) {
+      .section-top1 {
+          margin-top: -90px;
+      }
+  }
+  
+  .btn-scroll-down1 {
+      cursor: pointer;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: opacity .3s ease-in-out;
+      transition: opacity .3s ease-in-out;
+  }
+  
+  .btn-scroll-down1 i {
+      font-size: 1.13rem;
+      color: #fff;
+  }
+  
+  .card-icon-border-large {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 50px;
+      border: 6px solid;
+      border-radius: 50%;
+      font-size: 1.88rem;
+      line-height: 90px;
+      color: #ffffff;
+      margin-top: -3.06rem;
+  }

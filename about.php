@@ -1,11 +1,13 @@
 <?php include 'header.php'; ?>
-<div class="row w-100 " style="margin-top: 108px;">
-  <div class="col-12 announcements-container top-header marqueebody d-flex align-items-center justify-content-between" >
-      <b class="btn Announcements">Announcements:</b>
-      <marquee class="Announcementsquote" behavior="scroll" direction="left" scrollamount="5">
-          We have been awarded the prestigious AAAA+ grade under the Day &amp; Residential School Category for the academic year 2022-23.
-      </marquee>
-  </div>
+<div class="container-fluid marqueebody" style="margin-top:109px;">
+    <div class="row mt-5">
+        <div class="col-12 announcements-container top-header d-flex align-items-center justify-content-between ">
+            <b class="btn Announcements">Announcements:</b>
+            <marquee class="Announcementsquote" behavior="scroll" direction="left" scrollamount="5" style="width: 100%;">
+                We have been awarded the prestigious AAAA+ grade under the Day &amp; Residential School Category for the academic year 2022-23.
+            </marquee>
+        </div>
+    </div>
 </div>
   <section id="overview">
     <div class="container mt-5">
@@ -58,7 +60,7 @@
                     </div>
                     <div class="row akaya-kanadaka-regular gx-4 gy-4" >
                         <div class="col-sm-6 col-lg-3 col-xs-12 ">
-                            <div class="card bg-light">
+                            <div class="card bg-light  mycard">
                                 <a href="#" class="position-relative ">
                                     <img class="card-img-top fade-in "   src="images/cartoon-man-profile-vector-14982743.jpg" alt="The First Steps">
                                 </a>
@@ -71,7 +73,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-3 col-xs-12">
-                            <div class="card bg-light ">
+                            <div class="card bg-light  mycard">
                                 <a href="#" class="position-relative ">
                                     <img class="card-img-top fade-in "  src="images/cartoon-man-profile-vector-14982743.jpg" alt="Activity Based Learning">
                                 </a>
@@ -86,7 +88,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-3 col-xs-12">
-                            <div class="card bg-light ">
+                            <div class="card bg-light mycard">
                                 <a href="#" class="position-relative ">
                                     <img class="card-img-top fade-in "  src="images/cartoon-man-profile-vector-14982743.jpg" alt="Focus - Conceptual Foundation Classes">
                                 </a>
@@ -101,7 +103,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-3 col-xs-12">
-                            <div class="card bg-light ">
+                            <div class="card bg-light mycard">
                                 <a href="#" class="position-relative ">
                                     <img class="card-img-top fade-in"  src="images/cartoon-man-profile-vector-14982743.jpg" alt="E &amp; E classes">
                                 </a>

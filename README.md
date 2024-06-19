@@ -1,1 +1,0 @@
-# global-scouts-web-school

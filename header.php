@@ -59,8 +59,23 @@
         </a>
       </li>
       <li class="nav-item">
+        <a class="nav-item nav-link" href="gallery.php" style="color: #515151; font-size: large;">
+          <i class='far fa-image bg-circle custom-color-6' style=" background-color :#515151;  border-radius: 50%; padding: 4px;"></i> Gallery 
+        </a>
+      </li>
+      <li class="nav-item">
         <a class="nav-item nav-link" href="Achievements.php" style="color: #89509C; font-size: large;">
           <i class='fas fa-award bg-circle custom-color-6' style="border-radius: 50%; padding: 4px;"></i> Achievements
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="notice.php" style="color: #EB6EA5; font-size: large;">
+          <i class='far fa-copy bg-circle ' style=" background-color:#EB6EA5; color:white; border-radius: 50%; padding: 4px;"></i> Notice
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="login.php" style="color: #F0C24B; font-size: large;">
+          <i class='fas fa-sign-in-alt bg-circle ' style=" background-color :#F0C24B; color:white; border-radius: 50%; padding: 4px;"></i> Login
         </a>
       </li>
     </ul>
